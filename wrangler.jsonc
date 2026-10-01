@@ -7,6 +7,7 @@
     "name": "navihive",
     "main": "worker/index.ts",
     "compatibility_date": "2025-04-05",
+    "compatibility_flags": ["nodejs_compat"],  // 必须启用 Node.js 兼容
     "assets": {
         "not_found_handling": "single-page-application"
     },
@@ -17,14 +18,14 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "navigation-db-local",
-            "database_id": "43ff28e1-42d6-4e53-9657-0702ae1353b6"
+            "database_name": "navihive",
+            "database_id": "ac4773ad-99e8-400e-b825-baff197e4bb0"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "navihive",
-        "AUTH_PASSWORD": "navihive",
-        "AUTH_SECRET": "navihive"
+        "AUTH_USERNAME": "tyu",
+        "AUTH_PASSWORD": "$2y$10$jKWPZwC1irmHRU.WNDHAbuqjBNMkoIJPj01QWSnj9wC0chqVP27m6",
+        "AUTH_SECRET": "ZSlWEOwcT8zq25DjJroi615Q1VQQ4FUM"
     }
 }
